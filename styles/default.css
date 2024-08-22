@@ -2,15 +2,15 @@ body
 {
   margin: 100px;
   font-family: garamond;
-  color: rgb(45, 37, 166);
-  background-color: rgb(254, 108, 213);
+  color: rgb(10, 8, 32);
+  background-color: rgba(255, 185, 213, 0.808);
   font-size: 200%;
 }
 header 
 {
   font-family: garamond;
   color:rgb(70, 70, 248);
-  font-size: 250%;
+  font-size: 200%;
 }
 ol
 {
@@ -18,10 +18,15 @@ ol
 }
 a {
   text-decoration: none;
+  color: rgb(73, 8, 73);
+}
+a:hover {
+  color: rgb(240, 0, 120);
 }
 h1
 {
-  color: rgb(242, 242, 77);
-  font-size: 200%;
+  color: rgb(245, 245, 4);
+  font-size: 100%;
   font-family: garamond;
+  background-color: rgba(141, 140, 141, 0.342);
 }
