@@ -1,7 +1,7 @@
 body
 {
   margin: 100px;
-  font-family: 'Gill Sans';
+  font-family: Trebuchet MS;
   color: rgb(10, 8, 32);
   background-color: rgba(230, 132, 171, 0.733);
   font-size: 200%;
@@ -27,7 +27,7 @@ h1
 {
   color: rgb(85, 11, 73);
   font-size: 100%;
-  font-family: garamond;
+  font-family: Trebuchet MS;
   background-color: rgba(250, 65, 188);
 }
 figcaption {
