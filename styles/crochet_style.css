@@ -11,6 +11,7 @@ header
   font-family: garamond;
   color:rgb(70, 70, 248);
   font-size: 200%;
+  text-align: center;
 }
 ol
 {
@@ -33,4 +34,10 @@ h1
 }
 figcaption {
   font-size: 70%;
+}
+h2 {
+  text-align: center;
+}
+figure {
+  text-align: center;
 }
