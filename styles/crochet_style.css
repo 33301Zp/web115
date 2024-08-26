@@ -51,3 +51,6 @@ h2 {
 figure {
   text-align: center;
 }
+.custom-list {
+  list-style-type: disc;
+}
