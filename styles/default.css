@@ -32,3 +32,9 @@ h1
   background-color: rgba(141, 140, 141, 0.342);
   text-align: center;
 }
+figure {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
