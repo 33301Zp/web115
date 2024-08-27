@@ -23,6 +23,9 @@ header
   font-size: 200%;
   text-align: center;
 }
+.a {
+  font-size: 50%;
+}
 ol
 {
   list-style-type: none;
