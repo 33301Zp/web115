@@ -36,7 +36,7 @@ a {
 a:hover {
   color: rgb(240, 0, 120);
 }
-h1
+h1, h2
 {
   color: rgb(85, 11, 73);
   font-size: 100%;
@@ -47,7 +47,7 @@ h1
 figcaption {
   font-size: 70%;
 }
-h2 {
+h3 {
   text-align: center;
 }
 figure {
