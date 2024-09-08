@@ -1,7 +1,7 @@
 body
 {
-  margin: 50px;
-  font-family: Trebuchet MS;
+  margin: 100px;
+  font-family: Garamond;
   color: rgb(10, 8, 32);
   background-color: rgba(230, 132, 171, 0.733);
   font-size: 200%;
@@ -55,4 +55,8 @@ figure {
 }
 .custom-list {
   list-style-type: disc;
+}
+footer {
+  text-align: center;
+  font-size: 90%;
 }

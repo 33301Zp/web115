@@ -1,7 +1,7 @@
 body
 {
   margin: 100px;
-  font-family: garamond;
+  font-family: Garamond;
   color: rgb(10, 8, 32);
   background-color: rgba(255, 185, 213, 0.808);
   font-size: 200%;
@@ -53,3 +53,8 @@ h3 {
 .custom-list {
   list-style-type: disc;
 }
+footer {
+  text-align: center;
+  font-size: 90%;
+}
+
