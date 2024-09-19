@@ -33,11 +33,6 @@
             </div>
 
             <script>
-                document.getElementById("name-form").addEventListener("submit", function(event) {
-                    event.preventDefault();
-                    greetUser(event);
-                });
-                
                 function greetUser(event) {
                     event.preventDefault();
 
@@ -76,6 +71,11 @@
                         }
                     }, 100);
                 }
+
+                document.getElementById("name-form").addEventListener("submit", function(event) {
+                    event.preventDefault();
+                    greetUser(event);
+                });
             </script>
         </div>
     </main>
