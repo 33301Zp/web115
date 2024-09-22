@@ -33,12 +33,7 @@
             </div>
 
             <script>
-                document.addEventListener("DOMContentLoaded",function() {
-                    document.getElementById("name-form").addEventListener("submit", function(event) {
-                        event.preventDefault();
-                        greetUser(event);
-                    });
-                });
+                document.addEventListener("DOMContentLoaded", function() {
 
                     function greetUser(event) {
                         const firstName = document.getElementById("fname").value;
@@ -62,28 +57,34 @@
                             default: "Create"
                         };
                         for (let i = 1; i <= 140; i++) {
-                            let full_line = `${i}. `;
-                            let word_output = "";
+                            let fullLine = `${i}. `;
+                            let wordOutput = "";
 
                             if (i % 3 === 0) {
-                                word_output += words["three"];
+                                wordOutput += words["three"];
                             } 
                             if (i % 5 === 0) {
-                                if (word_output) {
-                                    word_output += " ";
+                                if (wordOutput) {
+                                    wordOutput += " ";
                                 }
-                                word_output += words["five"];
+                                wordOutput += words["five"];
                             }
 
-                            if (!word_output) {
-                                word_output = words.default;
+                            if (!wordOutput) {
+                                wordOutput = words.default;
                             }
                             
-                            full_line += word_output;
+                            fullLine += wordOutput;
 
-                            outputDiv2.innerHTML += `<p>${full_line}</p>`;
+                            outputDiv2.innerHTML += `<p>${fullLine}</p>`;
                         }
                     }
+                    
+                    document.getElementById("name-form").addEventListener("submit", function(event) {
+                        event.preventDefault();
+                        greetUser(event);
+                    });
+                });
             </script>
         </div>
     </main>
