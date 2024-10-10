@@ -24,6 +24,7 @@ header
   color:rgb(70, 70, 248);
   font-size: 160%;
   text-align: center;
+  line-height: 10px;
 }
 ol
 {
@@ -56,6 +57,7 @@ h3 {
 footer {
   text-align: center;
   font-size: 90%;
+  line-height: 10px;
 }
 .container {
   display: flex;
