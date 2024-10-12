@@ -66,3 +66,14 @@ header ol li a {
 header ol li a:last-child {
   margin-right: 0;
 }
+header ol li {
+  list-style: none;
+}
+header ol li a {
+  margin-right: 10px; 
+  text-decoration: none; 
+}
+
+header ol li a:last-child {
+  margin-right: 0; 
+}

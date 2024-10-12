@@ -63,9 +63,14 @@ footer {
 .column {
   margin: 0 10px;
 }
-header ol li a {
-  margin-right: none;
+header ol li {
+  list-style: none;
 }
+header ol li a {
+  margin-right: 10px; 
+  text-decoration: none; 
+}
+
 header ol li a:last-child {
-  margin-right: 0;
+  margin-right: 0; 
 }
