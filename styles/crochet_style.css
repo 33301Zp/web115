@@ -70,5 +70,7 @@ figure {
 footer {
   text-align: center;
   font-size: 90%;
+  text-decoration: none;
+  color: rgb(73, 8, 73);
 }
 
