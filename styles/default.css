@@ -63,13 +63,23 @@ footer {
 .column {
   margin: 0 10px;
 }
-.menu li {
-  list-style: none;
+header ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; /* Centers the list items */
 }
-.menu a {
-  margin-right: 100px;
+
+header ol li {
+  display: inline; /* Makes list items inline */
+}
+
+header ol li a {
   text-decoration: none;
+  color: rgb(73, 8, 73);
+  margin-right: 10px; /* Adds space between the links */
 }
-.menu a:last-child {
-  margin-right: 0;
+
+header ol li a:last-child {
+  margin-right: 0; /* Removes the margin from the last link */
 }
