@@ -23,7 +23,7 @@ header
   font-family: garamond;
   font-size: 100%;
 }
-header {
+header ol{
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -35,7 +35,7 @@ header ol li {
 header ol li a {
   text-decoration: none;
   color: rgb(73, 8, 73);
-  margin-right: 100px;
+  margin-right: 80px;
 }
 header ol li a:last-child {
   margin-right: 0;
