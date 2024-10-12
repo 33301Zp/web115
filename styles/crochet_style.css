@@ -60,20 +60,23 @@ footer {
   text-align: center;
   font-size: 90%;
 }
-header ol li a {
-  margin-right: none;
+header ol {
+  padding: 0;
+  margin: 0;
 }
-header ol li a:last-child {
-  margin-right: 0;
-}
+
 header ol li {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
+
 header ol li a {
-  margin-right: 10px; 
-  text-decoration: none; 
+  display: inline-block;
+  margin-right: 10px; /* Adjust the value as needed */
+  text-decoration: none; /* Removes underline from links */
 }
 
 header ol li a:last-child {
-  margin-right: 0; 
+  margin-right: 0; /* Removes margin from the last link */
 }
