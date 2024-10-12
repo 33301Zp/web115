@@ -63,3 +63,9 @@ footer {
 .column {
   margin: 0 10px;
 }
+header ol li a {
+  margin-right: none;
+}
+header ol li a:last-child {
+  margin-right: 0;
+}

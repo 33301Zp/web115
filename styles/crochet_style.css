@@ -60,3 +60,9 @@ footer {
   text-align: center;
   font-size: 90%;
 }
+header ol li a {
+  margin-right: none;
+}
+header ol li a:last-child {
+  margin-right: 0;
+}
