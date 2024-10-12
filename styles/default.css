@@ -77,7 +77,7 @@ header ol li {
 header ol li a {
   text-decoration: none;
   color: rgb(73, 8, 73);
-  margin-right: 10px; /* Adds space between the links */
+  margin-right: 100px; /* Adds space between the links */
 }
 
 header ol li a:last-child {
