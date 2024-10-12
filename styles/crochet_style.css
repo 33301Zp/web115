@@ -21,17 +21,28 @@ body
 header 
 {
   font-family: garamond;
-  color:rgb(70, 70, 248);
-  font-size: 160%;
+  font-size: 100%;
+}
+header {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
   text-align: center;
+}
+header ol li {
+  display: inline;
+}
+header ol li a {
+  text-decoration: none;
+  color: rgb(73, 8, 73);
+  margin-right: 10px;
+}
+header ol li a:last-child {
+  margin-right: 0;
 }
 ol
 {
   list-style-type: none;
-}
-a {
-  text-decoration: none;
-  color: rgb(73, 8, 73);
 }
 a:hover {
   color: rgb(240, 0, 120);

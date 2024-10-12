@@ -21,17 +21,28 @@ body
 header 
 {
   font-family: garamond;
-  color:rgb(70, 70, 248);
-  font-size: 160%;
-  text-align: center;
+  font-size: 100%;
 }
 ol
 {
   list-style-type: none;
 }
-a {
+header {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+header ol li {
+  display: inline;
+}
+header ol li a {
   text-decoration: none;
   color: rgb(73, 8, 73);
+  margin-right: 10px;
+}
+header ol li a:last-child {
+  margin-right: 0;
 }
 a:hover {
   color: rgb(240, 0, 120);
@@ -62,24 +73,4 @@ footer {
 }
 .column {
   margin: 0 10px;
-}
-header ol {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  text-align: center; /* Centers the list items */
-}
-
-header ol li {
-  display: inline; /* Makes list items inline */
-}
-
-header ol li a {
-  text-decoration: none;
-  color: rgb(73, 8, 73);
-  margin-right: 100px; /* Adds space between the links */
-}
-
-header ol li a:last-child {
-  margin-right: 0; /* Removes the margin from the last link */
 }
