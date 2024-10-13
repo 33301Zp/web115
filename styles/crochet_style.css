@@ -50,19 +50,17 @@ a:hover {
 h1, h2
 {
   color: rgb(85, 11, 73);
-  font-size: 100%;
+  font-size: 110%;
   font-family: Trebuchet MS;
   background-color: rgba(250, 65, 188);
   text-align: center;
 }
-figcaption {
-  font-size: 70%;
-}
-h3 {
-  text-align: center;
-}
 figure {
   text-align: center;
+  font-size: 80%;
+}
+figcaption {
+  font-style: italic;
 }
 .custom-list {
   list-style-type: disc;
@@ -88,7 +86,12 @@ p a {
 }
 h3 {
   font-style: italic;
+  text-align: center;
+  font-size: 90%;
 }
 h4 {
   font-weight: bold;
+}
+article {
+  font-size: 90%;
 }
