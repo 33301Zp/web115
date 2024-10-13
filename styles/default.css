@@ -54,7 +54,7 @@ h1, h2
   color: rgb(85, 11, 73);
   font-size: 110%;
   font-family: Trebuchet MS;
-  background-color: rgba(250, 65, 188);
+  background-color: rgba(250, 65, 188, 0.692);
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -94,5 +94,5 @@ p a {
   font-weight: bold;
 }
 article {
-  font-size: 90%;
+  font-size: 80%;
 }
