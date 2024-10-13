@@ -1,10 +1,10 @@
 body
 {
   margin: 100px;
-  font-family: Garamond;
+  font-family: Tahoma;
   color: rgb(10, 8, 32);
   background-color: rgba(255, 185, 213, 0.808);
-  font-size: 200%;
+  font-size: 180%;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -20,7 +20,7 @@ main > article {
 }
 header 
 {
-  font-family: garamond;
+  font-family: Tahoma;
   font-size: 100%;
 }
 ol
@@ -86,6 +86,5 @@ figcaption {
   font-style: italic;
 }
 p a {
-  font-style: italic;
   font-weight: bold;
 }
