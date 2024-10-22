@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/default.css">
+    <title>Zoe Potts's Made By - Fizz Buzz 2</title>
+    <script src="https://lint.page/kit/67ff88.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div data-include="components/header.html"></div>
+
+    <main>
+        <h2>Fizz Buzz 2</h2>
+        <article>
+            <form id="name-form">
+                <label for="fname">First Name: </label><br>
+                <input type="text" id="fname" name="fname" maxlength="25" placeholder="Enter first name here"><br>
+
+                <label for="mname">Middle Initial: </label><br>
+                <input type="text" id="mname" name="mname" maxlength="1" placeholder="Enter middle initial here"><br>
+
+                <label for="lname">Last Name: </label><br>
+                <input type="text" id="lname" name="lname" maxlength="25" placeholder="Enter last name here"><br>
+
+                <input type="submit" value="Submit"><br>
+            </form>
+
+            <div id="greeting"></div>
+
+            <div class="container">
+                <div id="output1" class="column"></div>
+                <div id="output2" class="column"></div>
+            </div>
+
+            <script>
+
+                document.addEventListener("DOMContentLoaded", function() {
+
+                    function greetUser(event) {
+                        const firstDivisor = 3;
+                        const secondDivisor = 5;
+                        const firstName = document.getElementById("fname").value;
+                        const middleInitial = document.getElementById("mname").value;
+                        const lastName = document.getElementById("lname").value;
+
+                        let fullName = `${firstName} `;
+                        if (middleInitial) {
+                            fullName += `${middleInitial}. `;
+                        }
+                        fullName += `${lastName}`;
+
+                        document.getElementById("greeting").textContent = `Welcome to Made By, ${fullName}!`;
+                        
+                        const outputDiv2 = document.getElementById("output2");
+                        outputDiv2.innerHTML = "";
+                        
+                        const words = {
+                            three: "Yarn",
+                            five: "Crochet",
+                            default: "Create"
+                        };
+                        for (let i = 1; i <= 140; i++) {
+                            let fullLine = `${i}. `;
+                            let wordOutput = "";
+
+                            if (i % firstDivisor === 0) {
+                                wordOutput += words["three"];
+                            } 
+                            if (i % secondDivisor === 0) {
+                                if (wordOutput) {
+                                    wordOutput += " ";
+                                }
+                                wordOutput += words["five"];
+                            }
+
+                            if (!wordOutput) {
+                                wordOutput = words.default;
+                            }
+                            
+                            fullLine += wordOutput;
+
+                            outputDiv2.innerHTML += `<p>${fullLine}</p>`;
+                        }
+                    }
+                    
+                    document.getElementById("name-form").addEventListener("submit", function(event) {
+                        event.preventDefault();
+                        greetUser(event);
+                    });
+                });
+            </script>
+        </article>
+    </main>
+    <script src="https://lint.page/kit/67ff88.js" crossorigin="anonymous"></script>
+	<div data-include="components/footer.html"></div>
+
+    <script src="scripts/HTMLInclude.js"></script>
+</body>
+</html>
