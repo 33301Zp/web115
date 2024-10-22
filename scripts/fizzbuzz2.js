@@ -1,5 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
-    
+
+    function checkDivision(number, divisor) {
+        return number % divisor === 0;
+    }
+
     function greetUser(event) {
         const firstDivisor = 3;
         const secondDivisor = 5;
@@ -27,10 +31,10 @@ document.addEventListener("DOMContentLoaded", function() {
             let fullLine = `${i}. `;
             let wordOutput = "";
 
-            if (i % firstDivisor === 0) {
+            if (checkDivision(i, firstDivisor)) {
                 wordOutput += words["three"];
             } 
-            if (i % secondDivisor === 0) {
+            if (checkDivision(i, secondDivisor)) {
                 if (wordOutput) {
                     wordOutput += " ";
                 }
