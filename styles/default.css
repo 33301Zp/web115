@@ -14,7 +14,7 @@ main > article {
   height: 50%;
   margin: 30px;
   box-sizing: border-box;
-  border: 3px solid rgb(111, 5, 138);
+  border: 3px solid rgba(136, 33, 161, 0.781);
   padding: 20px;
   margin: auto;
 }
@@ -55,6 +55,7 @@ h1, h2
   font-size: 110%;
   font-family: Trebuchet MS;
   background-color: rgba(250, 65, 188, 0.692);
+  border: 2px solid rgb(136, 33, 161, 0.781);
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
