@@ -46,9 +46,6 @@ nav ul li a, nav ul li span {
 nav ul li a:last-child, nav ul li span:last-child {
   margin-right: 0;
 }
-ul {
-  list-style-type: none;
-}
 a:hover {
   color: rgb(240, 0, 120);
 }
@@ -79,6 +76,9 @@ footer {
   text-align: center;
   font-size: 90%;
 }
+footer ul {
+  list-style-type: none;
+}
 .container {
   display: flex;
 }
@@ -89,7 +89,7 @@ a {
   text-decoration: none;
   color: rgb(73, 8, 73);
 }
-footer ol li a {
+footer ul li a {
   text-decoration: none;
   color: rgb(73, 8, 73);
 }
