@@ -49,9 +49,6 @@ header ol li a:last-child {
 a:hover {
   color: rgb(240, 0, 120);
 }
-span {
-  text-align: center;
-}
 h1, h2 {
   color: rgb(85, 11, 73);
   font-size: 110%;
