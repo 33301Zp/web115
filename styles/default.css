@@ -2,7 +2,7 @@ body
 {
   margin: 100px;
   font-family: Tahoma;
-  color: rgb(10, 8, 32);
+  color: rgb(28, 23, 83);
   background-color: rgba(255, 185, 213, 0.808);
   font-size: 180%;
   max-width: 1200px;
@@ -48,6 +48,9 @@ header ol li a:last-child {
 }
 a:hover {
   color: rgb(240, 0, 120);
+}
+span {
+  text-align: center;
 }
 h1, h2 {
   color: rgb(85, 11, 73);
