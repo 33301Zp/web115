@@ -46,6 +46,9 @@ nav ul li a, nav ul li span {
 nav ul li a:last-child, nav ul li span:last-child {
   margin-right: 0;
 }
+ul {
+  list-style-type: none;
+}
 a:hover {
   color: rgb(240, 0, 120);
 }
