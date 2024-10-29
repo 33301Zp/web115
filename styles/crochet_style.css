@@ -92,12 +92,12 @@ p a {
   font-weight: bold;
 }
 h3 {
-  font-style: italic;
-  text-align: center;
   font-size: 90%;
+  font-weight: bold;
 }
 h4 {
-  font-weight: bold;
+  font-size: 80%;
+  font-style: italic;
 }
 article {
   font-size: 80%;
