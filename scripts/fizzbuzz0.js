@@ -14,20 +14,13 @@ function greetUser(event) {
 
     document.getElementById("greeting").textContent = `Welcome to Made By, ${fullName}!`;
 
-    const outputDiv1 = document.getElementById("output1");
-    outputDiv1.innerHTML = "";
-    for (let i = 1; i <= 125; i++) {
-        const textLine = `${i}. Creative Inspiration`;
-        outputDiv1.innerHTML += `<p>${textLine}</p>`;
-    }
-
     setTimeout(() => {
         const userNumber = parseInt(prompt(`How high do you want to count, ${firstName}?`), 10);
 
         const outputDiv2 = document.getElementById("output2");
         outputDiv2.innerHTML = "";
         for (let i = 1; i <= userNumber; i++) {
-            let textLine = `${i}. Bibbidi-Bobbidi-Boo - the number is `;
+            let textLine = `${i}. Bibbidi-Bobbidi-Boo: the number is `;
             if (i % 2 === 0) {
                 textLine += "even";
             } else {
@@ -38,8 +31,11 @@ function greetUser(event) {
     }, 100);
 }
 
-document.getElementById("name-form").addEventListener("submit", function(event) {
-    event.preventDefault();
-    greetUser(event);
-});
-            
+function resetFormAndJS() {
+    document.getElementById("greeting").textContent = "";
+    document.getElementById("output2").innerHTML ="";
+}
+
+document.getElementById("name-form").addEventListener("submit", greetUser);
+document.getElementById("resetbutton").onclick = resetFormAndJS;
+   
