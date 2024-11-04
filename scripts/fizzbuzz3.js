@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         document.getElementById("greeting").textContent = `Welcome to Made By, ${fullName}!`;
         
-        const outputDiv2 = document.getElementById("output2");
+        const outputDiv2 = document.getElementById("output1");
         outputDiv2.innerHTML = "";
         
         const words = {
@@ -63,4 +63,11 @@ document.addEventListener("DOMContentLoaded", function() {
         event.preventDefault();
         greetUser(event);
     });
+
+    function resetFormAndJS() {
+        document.getElementById("greeting").textContent = "";
+        document.getElementById("output1").innerHTML ="";
+    }
+    document.getElementById("name-form").addEventListener("submit", greetUser);
+    document.getElementById("resetbutton").onclick = resetFormAndJS;
 });

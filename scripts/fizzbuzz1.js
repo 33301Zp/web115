@@ -49,4 +49,11 @@ document.addEventListener("DOMContentLoaded", function() {
         event.preventDefault();
         greetUser(event);
     });
+
+    function resetFormAndJS() {
+        document.getElementById("greeting").textContent = "";
+        document.getElementById("output2").innerHTML ="";
+    }
+    document.getElementById("name-form").addEventListener("submit", greetUser);
+    document.getElementById("resetbutton").onclick = resetFormAndJS;
 });
