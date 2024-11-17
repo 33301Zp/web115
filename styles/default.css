@@ -93,9 +93,6 @@ footer ul li a {
   text-decoration: none;
   color: rgb(73, 8, 73);
 }
-article {
-  font-size: 100%;
-}
 h4 {
   font-style: italic;
   font-size: 80%;
@@ -122,26 +119,29 @@ input {
   margin: 10px;
 }
 article {
+  font-size: 100%;
   text-align: center;
   align-items: center;
 }
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
+  text-align: left;
 }
 div[id="output2"] {
-  text-align: left;
-  padding-left: 30px;
+  margin-left: 60px;
+  column-count: 2;
+  column-gap: 120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 #greeting {
   font-weight: bold;
 }
 div[id="output1"] {
-  text-align: left;
-  padding-left: 30px;
-  margin-left: 100px;
+  margin-left: 350px;
+  column-count: 2;
+  column-gap: 130px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 p a {
   font-style: italic;
