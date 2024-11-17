@@ -137,11 +137,12 @@ div[id="output2"] {
   font-weight: bold;
 }
 div[id="output1"] {
-  margin-left: 350px;
-  column-count: 2;
-  column-gap: 130px;
+  margin-left: 180px;
+  margin-right: 100px;
+  column-count: 3;
+  column-gap: 140px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 p a {
   font-style: italic;
