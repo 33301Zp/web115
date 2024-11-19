@@ -24,7 +24,23 @@ header {
   font-size: 100%;
   padding-top: 5px;
   padding-bottom: 15px;
-  max-width: 1200px;
+}
+@media (max-width: 1150px) {
+  header {
+    padding: 10px;
+ }
+  h1 img {
+    height: 70px;
+  }
+}
+@media (max-width: 600px) {
+  header {
+    padding: 10px;
+    font-size: 1em;
+ }
+  h1 img {
+    height: 70px;
+  }
 }
 nav ul
 {
