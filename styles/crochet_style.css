@@ -19,12 +19,11 @@ main {
   margin: auto;
   font-size: 80%;
 }
-header 
-{
-  font-family: Tahoma;
+header {
+  font-family: Trebuchet MS;
   font-size: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 15px;
 }
 nav ul
 {
@@ -50,13 +49,18 @@ nav ul li a:last-child, nav ul li span:last-child {
 a:hover {
   color: rgb(240, 0, 120);
 }
+h1 {
+  font-size: 140%;
+}
+h2 {
+  font-size: 110%;
+}
 h1, h2 {
   color: rgb(85, 11, 73);
-  font-size: 110%;
   font-family: Trebuchet MS;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 0px;
 }
 figure {
   text-align: center;
@@ -96,6 +100,18 @@ h4 {
 }
 article {
   font-size: 80%;
+}
+h1 img {
+  float: left;
+  margin-top: -10px;
+}
+h1 img:nth-child(2) {
+  float: right;
+}
+hr {
+  border: none;
+  border-top: 5px solid rgb(136, 33, 161, 0.781);
+  width: 80%;
 }
 p a {
   font-style: italic;
