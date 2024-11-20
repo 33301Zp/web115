@@ -90,7 +90,7 @@ figcaption {
   font-style: italic;
 }
 h3 {
-  text-align: center;
+  text-align: left;
 }
 .custom-list {
   list-style-type: disc;
@@ -101,9 +101,6 @@ footer {
 }
 footer ul {
   list-style-type: none;
-}
-.container {
-  display: flex;
 }
 .column {
   margin: 0 10px;
@@ -122,7 +119,6 @@ h4 {
 }
 input[type="submit"] {
   margin-top: 20px;
-  justify-content: center;
 }
 input[type="submit"]:hover {
   background-color: rgba(10, 107, 35, 0.767);
@@ -141,31 +137,15 @@ input[type="reset"]:hover {
 input {
   margin: 10px;
 }
-article {
-  font-size: 100%;
+section {
   text-align: center;
-  align-items: center;
-}
-.container {
-  text-align: left;
-}
-div[id="output2"] {
-  margin-left: 60px;
-  column-count: 2;
-  column-gap: 120px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-#greeting {
-  font-weight: bold;
+  justify-content: left;
 }
 div[id="output1"] {
-  margin-left: 180px;
-  margin-right: 100px;
-  column-count: 3;
-  column-gap: 140px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  text-align: left;
+}
+input[id="mname"] {
+  width: 149px;
 }
 h1 img {
   float: left;

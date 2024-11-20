@@ -12,14 +12,14 @@
     <div data-include="components/header.html"></div>
 
     <main>
-        <article>
+        <section>
             <h2>FizzBuzz2</h2>
                 <form id="name-form">
                     <label for="fname">First Name: </label>
                     <input type="text" id="fname" name="fname" maxlength="25" placeholder="Enter first name here" required><br>
 
                     <label for="mname">Middle Initial: </label>
-                    <input type="text" id="mname" name="mname" maxlength="1" placeholder="Enter optional middle initial"><br>
+                    <input type="text" id="mname" name="mname" maxlength="1" placeholder="Optional middle initial"><br>
 
                     <label for="lname">Last Name: </label>
                     <input type="text" id="lname" name="lname" maxlength="25" placeholder="Enter last name here" required><br>
@@ -28,16 +28,13 @@
                     <input type="reset" value="Reset" id="resetbutton">
                 </form>
 
-                <div id="greeting"></div>
+                <h3 id="greeting"></h3>
 
-                <div class="container">
-                    <div id="output1" class="column"></div>
-                </div>
+                <div id="output1"></div>
 
                 <script src="scripts/fizzbuzz2.js"></script>
-        </article>
+        </section>
     </main>
-    <script src="https://lint.page/kit/67ff88.js" crossorigin="anonymous"></script>
 	<div data-include="components/footer.html"></div>
 
     <script src="scripts/HTMLInclude.js"></script>
