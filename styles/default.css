@@ -142,6 +142,9 @@ input[type="reset"]:hover {
   box-shadow: 0px 0px 30px rgba(245, 4, 4, 0.712);
   color: white;
 }
+label {
+  font-size: 90%;
+}
 input {
   margin: 10px;
 }
