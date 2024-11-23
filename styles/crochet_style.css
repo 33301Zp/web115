@@ -94,6 +94,7 @@ figcaption {
 }
 .custom-list {
   list-style-type: disc;
+  font-size: 85%;
 }
 footer {
   text-align: center;
@@ -114,7 +115,7 @@ figcaption {
   font-style: italic;
 }
 h3 {
-  font-size: 90%;
+  font-size: 85%;
   font-weight: bold;
 }
 h4 {

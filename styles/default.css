@@ -145,7 +145,7 @@ section {
   text-align: center;
   justify-content: left;
 }
-ol {
+#output1 {
   text-align: left;
   line-height: .6;
 }
