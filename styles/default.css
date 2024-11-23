@@ -98,6 +98,10 @@ h3 {
 }
 .custom-list {
   list-style-type: disc;
+  font-size: 90%;
+}
+.custom-list ol {
+  font-size: 100%;
 }
 footer {
   text-align: center;
