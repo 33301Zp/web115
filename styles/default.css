@@ -24,7 +24,7 @@ p {
 }
 header {
   font-family: Trebuchet MS;
-  font-size: 100%;
+  font-size: 90%;
   padding-top: 10px;
   padding-bottom: 10px;
   max-width: 1200px;
@@ -48,6 +48,7 @@ header {
 }
 nav {
   list-style-type: none;
+  font-size: 95%;
 }
 nav ul {
   list-style-type: none;
@@ -78,7 +79,7 @@ h1 {
   padding-bottom: 0px;
 }
 h2 {
-  font-size: 100%;
+  font-size: 110%;
   color: rgb(85, 11, 73);
   font-family: Trebuchet MS;
   text-align: center;

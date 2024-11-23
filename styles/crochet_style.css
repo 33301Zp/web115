@@ -21,7 +21,7 @@ main {
 }
 header {
   font-family: Trebuchet MS;
-  font-size: 100%;
+  font-size: 90%;
   padding-top: 5px;
   padding-bottom: 15px;
 }
@@ -78,7 +78,7 @@ h1 {
   padding-bottom: 0px;
 }
 h2 {
-  font-size: 100%;
+  font-size: 110%;
   color: rgb(85, 11, 73);
   font-family: Trebuchet MS;
   text-align: center;
