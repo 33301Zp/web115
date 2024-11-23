@@ -25,6 +25,9 @@ header {
   padding-top: 5px;
   padding-bottom: 15px;
 }
+p {
+  font-size: 85%;
+}
 @media (max-width: 1150px) {
   header {
     padding: 10px;
@@ -75,7 +78,7 @@ h1 {
   padding-bottom: 0px;
 }
 h2 {
-  font-size: 110%;
+  font-size: 100%;
   color: rgb(85, 11, 73);
   font-family: Trebuchet MS;
   text-align: center;
