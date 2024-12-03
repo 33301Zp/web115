@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Zoe Potts' - Business Card</title>
+    <link rel="icon" type="image/x-icon" href="images/web115_favicon.png">
+    <script src="https://lint.page/kit/67ff88.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            background-image: radial-gradient(circle, rgba(247, 230, 243, 0.932), rgba(250, 98, 230, 0.808), rgba(146, 1, 134, 0.76));
+        }
+        main {
+            background-color: rgb(252, 212, 250);
+            border: 1px solid rgba(49, 49, 49, 0.781);
+            border-radius: 15px;
+            height: 200px;
+            width: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 0;
+            border-radius: 15px;
+            box-shadow: 5px 5px 5px 5px rgba(83, 83, 83, 0.808);
+        }
+        h1 {
+            font-family: candara;
+            margin-top: -120px;
+            margin-left: -235px;
+            position: fixed;
+        }
+        hr {
+            border: 1px solid rgb(0, 0, 0);
+            width: 164px;
+            margin-top: 0px;
+        }
+        h2 {
+            font-family: candara;
+            margin-top: -80px;
+            margin-left: -160px;
+            font-size: 15px;
+            font-style: italic;
+            position: fixed;
+        }
+        section {
+            margin-top: 80px;
+            margin-left: -140px;
+            margin-bottom: 10px;
+            text-align: left;
+            font-family: candara;
+            font-size: 20px;
+            position: fixed;
+        }
+        a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        a:hover {
+            color: rgb(141, 2, 129);
+        }
+        p {
+            margin: 5px;
+        }
+        .one {
+            background-color: rgb(255, 103, 247);
+            position: fixed;
+            border-radius: 60px;
+            width: 100px;
+            height: 100px;
+            margin-top: -95px;
+            margin-left: 95px;
+        }
+        .two {
+            background-color: rgb(247, 150, 242);
+            position: fixed;
+            border-radius: 60px;
+            width: 90px;
+            height: 90px;
+            margin-top: -60px;
+            margin-left: 90px;
+        }
+        .three {
+            background-color: rgb(158, 91, 144);
+            position: fixed;
+            border-radius: 60px;
+            width: 50px;
+            height: 50px;
+            margin-top: -95px;
+            margin-left: 40px;
+        }
+        .four {
+            background-color: rgb(209, 67, 214);
+            position: fixed;
+            border-radius: 60px;
+            width: 40px;
+            height: 40px;
+            margin-top: 10px;
+            margin-left: 150px;
+        }
+        .five {
+            background-color: rgb(134, 4, 127);
+            position: fixed;
+            border-radius: 60px;
+            width: 30px;
+            height: 30px;
+            margin-top: 20px;
+            margin-left: 60px;
+        }
+        .six {
+            background-color: rgb(117, 9, 103);
+            position: fixed;
+            border-radius: 60px;
+            width: 20px;
+            height: 20px;
+            margin-top: -20px;
+            margin-left: 80px;
+        }
+        .seven {
+            background-color: rgb(173, 23, 173);
+            position: fixed;
+            border-radius: 60px;
+            width: 50px;
+            height: 50px;
+            margin-top: -10px;
+            margin-left: 30px;
+        }
+        .eight {
+            background-color: rgb(150, 48, 136);
+            position: fixed;
+            border-radius: 60px;
+            width: 20px;
+            height: 20px;
+            margin-top: -50px;
+            margin-left: 30px;
+        }
+        .nine {
+            background-color: rgb(255, 5, 213);
+            position: fixed;
+            border-radius: 60px;
+            width: 10px;
+            height: 10px;
+            margin-top: -60px;
+            margin-left: 30px;
+        }
+        .ten {
+            background-color: rgb(255, 5, 213);
+            position: fixed;
+            border-radius: 60px;
+            width: 20px;
+            height: 20px;
+            margin-top: 40px;
+            margin-left: 130px;
+        }
+        .eleven {
+            background-color: rgb(255, 5, 243);
+            position: fixed;
+            border-radius: 60px;
+            width: 30px;
+            height: 30px;
+            margin-top: 65px;
+            margin-left: 130px;
+        }
+        .twelve {
+            background-color: rgba(252, 105, 239, 0.733);
+            position: fixed;
+            border-radius: 60px;
+            width: 30px;
+            height: 30px;
+            margin-top: -50px;
+            margin-left: -20px;
+        }
+        .thirteen {
+            background-color: rgba(141, 0, 146, 0.733);
+            position: fixed;
+            border-radius: 60px;
+            width: 25px;
+            height: 25px;
+            margin-top: -80px;
+            margin-left: -5px;
+        }
+        .fourteen {
+            background-color: rgba(255, 0, 242, 0.733);
+            position: fixed;
+            border-radius: 60px;
+            width: 20px;
+            height: 20px;
+            margin-top: -95px;
+            margin-left: -30px;
+        }
+        .fifteen {
+            background-color: rgba(185, 44, 155, 0.733);
+            position: fixed;
+            border-radius: 60px;
+            width: 20px;
+            height: 20px;
+            margin-top: 50px;
+            margin-left: 100px;
+        }
+        .sixteen {
+            background-color: rgba(255, 65, 198, 0.733);
+            position: fixed;
+            border-radius: 60px;
+            width: 10px;
+            height: 10px;
+            margin-top: 70px;
+            margin-left: 80px;
+        }
+        .seventeen {
+            background-color: rgba(104, 0, 99, 0.733);
+            position: fixed;
+            border-radius: 60px;
+            width: 20px;
+            height: 20px;
+            margin-top: 60px;
+            margin-left: 170px;
+        }
+    </style>
+
+</head>
+<body>
+    <div data-include="components/header.html"></div>
+
+    <main>
+        <h1>Zoe Potts<hr></h1>
+        <h2>Web Designer</h2>
+        <section>
+            <p><a href="mailto:zpotts01@email.cpcc.edu">zpotts01@email.cpcc.edu</a></p>
+            <p>704-111-1111</p>
+            <p>2422 Lane Drive, Charlotte NC</p>
+        </section>
+        <article>
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+            <div class="four"></div>
+            <div class="five"></div>
+            <div class="six"></div>
+            <div class="seven"></div>
+            <div class="eight"></div>
+            <div class="nine"></div>
+            <div class="ten"></div>
+            <div class="eleven"></div>
+            <div class="twelve"></div>
+            <div class="thirteen"></div>
+            <div class="fourteen"></div>
+            <div class="fifteen"></div>
+            <div class="sixteen"></div>
+            <div class="seventeen"></div>
+        </article>
+    </main>
+
+    <div data-include="components/footer.html"></div>
+
+    <script src="scripts/HTMLInclude.js"></script>
+</body>
+</html>
