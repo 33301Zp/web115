@@ -122,6 +122,40 @@ h4 {
   font-style: italic;
   font-size: 80%;
 }
+input[type="submit"] {
+  margin-top: 20px;
+}
+input[type="submit"]:hover {
+  background-color: rgba(10, 107, 35, 0.767);
+  box-shadow: 0px 0px 30px rgba(4, 245, 24, 0.712);
+  color: white;
+}
+input[type="reset"] {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+input[type="reset"]:hover {
+  background-color: rgb(196, 7, 7);
+  box-shadow: 0px 0px 30px rgba(245, 4, 4, 0.712);
+  color: white;
+}
+label {
+  font-size: 90%;
+}
+input {
+  margin: 10px;
+}
+section {
+  justify-content: left;
+}
+#output1 {
+  text-align: left;
+  line-height: .6;
+  font-family: Tahoma;
+}
+input[id="mname"] {
+  width: 149px;
+}
 article {
   font-size: 80%;
 }
