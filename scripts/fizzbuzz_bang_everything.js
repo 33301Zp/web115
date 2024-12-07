@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const secondWord = document.getElementById("second-word").value;
         const thirdDivisor = parseInt(document.getElementById("third-num").value, 10);
         const thirdWord = document.getElementById("third-word").value;
+        const defaultWord = document.getElementById("default").value;
         const endNum = parseInt(document.getElementById("end-num").value, 10);
 
         let fullName = `${firstName} `;
@@ -33,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
             first: firstWord,
             second: secondWord,
             third: thirdWord,
-            default: ""
+            default: defaultWord
         };
         for (let i = 1; i <= endNum; i++) {
             let fullLine = `${i}. `;
