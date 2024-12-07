@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const secondWord = document.getElementById("second-word").value;
         const thirdDivisor = parseInt(document.getElementById("third-num").value, 10);
         const thirdWord = document.getElementById("third-word").value;
+        const endNum = parseInt(document.getElementById("end-num").value, 10);
 
         let fullName = `${firstName} `;
         if (middleInitial) {
@@ -34,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
             third: thirdWord,
             default: ""
         };
-        for (let i = 1; i <= 125; i++) {
+        for (let i = 1; i <= endNum; i++) {
             let fullLine = `${i}. `;
             let wordOutput = "";
 
