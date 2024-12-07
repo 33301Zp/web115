@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
             first: firstWord,
             second: secondWord,
             third: thirdWord,
-            default: "Not divisible"
+            default: ""
         };
         for (let i = 1; i <= 125; i++) {
             let fullLine = `${i}. `;
